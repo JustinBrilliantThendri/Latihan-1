@@ -1,5 +1,6 @@
 body{
     font-family : calibri;
+    background-image : linear-gradient(to right, red, orange, yellow, green, blue, indigo, purple);
 }
 
 .container{
@@ -9,7 +10,7 @@ body{
     width : 415px;
 }
 
-.pic, h1, p, button{
+.pic, h1, p, button, .icon{
     transition : 0.5s;
 }
 
@@ -23,11 +24,11 @@ body{
     border-radius : 50%;
 }
 
-.pic:hover{
-    box-shadow : 3px 3px 5px grey;
+.pic:hover, button:active{
+    box-shadow : 1px 1px 3px black;
 }
 
-h1:hover{
+h1:hover, p:hover{
     letter-spacing : 2px;
 }
 
@@ -36,16 +37,21 @@ p{
     font-weight : bold;
 }
 
-p:hover{
-    letter-spacing : 3px;
-}
-
 .bio{
-    margin-top : 30px;
+    margin-top : 35px;
 }
 
 td{
     padding : 0px 20px;
+}
+
+.icon{
+    width : 30px;
+    height : 30px;
+}
+
+.icon:hover{
+    transform : scale(1.125);
 }
 
 .sosmed{
@@ -56,15 +62,16 @@ td{
 }
 
 .btn{
-    margin-top : 20px;
+    margin-top : 30px;
 }
 
 button{
-    width : 125px;
+    width : 175px;
     height : 30px;
     font-weight : bold;
     font-size : 18px;
     border-radius : 25px;
+    background-color : transparent;
 }
 
 button:hover{
