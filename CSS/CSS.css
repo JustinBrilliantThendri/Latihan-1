@@ -1,0 +1,67 @@
+body{
+    font-family : calibri;
+}
+
+.container{
+    margin-left : auto;
+    margin-right : auto;
+    text-align : center;
+    width : 415px;
+}
+
+.pic, h1, p{
+    transition : 0.5s;
+}
+
+.pic{
+    margin-left : auto;
+    margin-right : auto;
+    border : 2px solid black;
+    width : 300px;
+    height : 300px;
+    overflow : hidden;
+    border-radius : 50%;
+}
+
+.pic:hover{
+    box-shadow : 3px 3px 5px grey;
+}
+
+h1:hover{
+    letter-spacing : 2px;
+}
+
+p{
+    font-size : 25px;
+    font-weight : bold;
+}
+
+p:hover{
+    letter-spacing : 3px;
+}
+
+.bio{
+    margin-top : 30px;
+}
+
+td{
+    padding : 0px 20px;
+}
+
+.sosmed{
+    margin-left : auto;
+    margin-right : auto;
+    text-align : center;
+    width : 145px;
+}
+
+.btn{
+    margin-top : 15px;
+}
+
+button{
+    width : 125px;
+    height : 30px;
+    font-weight : bold;
+    font-size : 18px;
+}
